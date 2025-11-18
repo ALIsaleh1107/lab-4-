@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int x,counter=1,sum=0;
+	double avg;
+	
+	while (counter <= 10)
+	{
+		
+
+		cout << "enter num" << counter<<": ";
+		cin >> x;
+		
+		
+		sum = sum + x;
+		
+		counter++;
+
+
+	}
+	cout << sum << endl;
+	avg = sum / 10;
+	cout << avg << endl;
+
+
+
+	return 0;
+} 
+//by ali 
+
