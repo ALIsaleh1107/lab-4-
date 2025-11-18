@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int  y = 30;
+	if (y < 0)
+	{
+		cout << "error";
+	}
+	
+		while (y>=0)
+		{
+			cout << y << endl;
+			y = y -2;
+			
+		}
+	
+	return 0;
+}
+//by ali
